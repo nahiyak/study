@@ -1,4 +1,4 @@
-package com.example.ldaptest;
+package com.example.ldaptest.service;
 
 
 import org.springframework.ldap.core.AttributesMapper;
@@ -29,5 +29,9 @@ public class LdapService {
                         return (String) attrs.get("cn").get();
                     }
                 });
+    }
+
+    public void test(){
+
     }
 }
