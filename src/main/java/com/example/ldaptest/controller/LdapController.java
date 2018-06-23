@@ -1,6 +1,6 @@
 package com.example.ldaptest.controller;
 
-import com.example.ldaptest.LdapService;
+import com.example.ldaptest.service.LdapService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
